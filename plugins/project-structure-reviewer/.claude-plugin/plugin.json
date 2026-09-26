@@ -1,0 +1,4 @@
+{
+  "name": "project-structure-reviewer",
+  "description": "Checks folder layout, file architecture, naming conventions, and cross-project consistency against best practices, so the codebase stays predictable as it grows."
+}

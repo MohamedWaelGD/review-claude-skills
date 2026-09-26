@@ -27,9 +27,12 @@ review-claude-skills/
 │   ├── angular-specialist/
 │   │   ├── .claude-plugin/plugin.json
 │   │   └── agents/angular-specialist.md
-│   └── test-designer/
+│   ├── test-designer/
+│   │   ├── .claude-plugin/plugin.json
+│   │   └── agents/test-designer.md
+│   └── project-structure-reviewer/
 │       ├── .claude-plugin/plugin.json
-│       └── agents/test-designer.md
+│       └── agents/project-structure-reviewer.md
 └── README.md
 ```
 
@@ -44,6 +47,7 @@ review-claude-skills/
 | `api-contract-reviewer` | `api-contract-reviewer` | Checks request/response shapes, validation, errors, pagination, and frontend/backend compatibility. Prevents integration surprises. |
 | `angular-specialist` | `angular-specialist` | Reviews signals, RxJS, change detection, SSR, hydration, forms, and component boundaries. |
 | `test-designer` | `test-designer` | Finds behavior that needs unit/integration/e2e tests and writes tests for meaningful edge cases (has write access, unlike the read-only reviewers). |
+| `project-structure-reviewer` | `project-structure-reviewer` | Checks folder layout, file architecture, naming, and consistency against best practices and the project's own conventions. Read-only; recommends exact moves/renames. |
 
 ## Add a new skill or agent later
 
@@ -63,6 +67,7 @@ review-claude-skills/
 /plugin install api-contract-reviewer@review-claude-skills
 /plugin install angular-specialist@review-claude-skills
 /plugin install test-designer@review-claude-skills
+/plugin install project-structure-reviewer@review-claude-skills
 ```
 
 Or, for local testing before you push to GitHub:

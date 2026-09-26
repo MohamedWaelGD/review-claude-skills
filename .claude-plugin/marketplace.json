@@ -39,6 +39,11 @@
       "name": "test-designer",
       "source": "./plugins/test-designer",
       "description": "Finds behavior that needs unit, integration, or end-to-end tests; writes tests for meaningful edge cases. Catches regressions the diff alone may miss."
+    },
+    {
+      "name": "project-structure-reviewer",
+      "source": "./plugins/project-structure-reviewer",
+      "description": "Checks folder layout, file architecture, naming conventions, and consistency against best practices and the project's own patterns. Keeps the codebase predictable as it grows."
     }
   ]
 }

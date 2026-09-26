@@ -1,0 +1,4 @@
+{
+  "name": "api-contract-reviewer",
+  "description": "Checks request and response shapes, validation, errors, pagination, and frontend/backend compatibility to prevent integration surprises."
+}

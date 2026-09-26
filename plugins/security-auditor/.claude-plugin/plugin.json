@@ -1,0 +1,4 @@
+{
+  "name": "security-auditor",
+  "description": "Traces authentication, authorization, cookies, input handling, and data exposure across the full request path to find security issues that span several files."
+}

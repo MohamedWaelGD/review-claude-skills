@@ -9,6 +9,36 @@
       "name": "code-review",
       "source": "./plugins/code-review",
       "description": "Full-stack code/PR review agent covering correctness, security, best practices, and performance."
+    },
+    {
+      "name": "security-auditor",
+      "source": "./plugins/security-auditor",
+      "description": "Traces authentication, authorization, cookies, input handling, and data exposure across the full request path. Finds security issues that span several files."
+    },
+    {
+      "name": "accessibility-reviewer",
+      "source": "./plugins/accessibility-reviewer",
+      "description": "Checks keyboard use, focus, semantics, screen reader behavior, and RTL/LTR UI. Makes UI reviews more reliable and inclusive."
+    },
+    {
+      "name": "performance-profiler",
+      "source": "./plugins/performance-profiler",
+      "description": "Investigates measured slow paths, bundle size, rendering, network requests, and database queries. Focuses optimization on actual bottlenecks."
+    },
+    {
+      "name": "api-contract-reviewer",
+      "source": "./plugins/api-contract-reviewer",
+      "description": "Checks request and response shapes, validation, errors, pagination, and frontend/backend compatibility. Prevents integration surprises."
+    },
+    {
+      "name": "angular-specialist",
+      "source": "./plugins/angular-specialist",
+      "description": "Reviews signals, RxJS, change detection, SSR, hydration, forms, and component boundaries. Gives your main stack a deeper review."
+    },
+    {
+      "name": "test-designer",
+      "source": "./plugins/test-designer",
+      "description": "Finds behavior that needs unit, integration, or end-to-end tests; writes tests for meaningful edge cases. Catches regressions the diff alone may miss."
     }
   ]
 }

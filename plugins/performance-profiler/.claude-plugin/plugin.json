@@ -1,0 +1,4 @@
+{
+  "name": "performance-profiler",
+  "description": "Investigates measured slow paths, bundle size, rendering, network requests, and database queries to focus optimization on actual bottlenecks."
+}

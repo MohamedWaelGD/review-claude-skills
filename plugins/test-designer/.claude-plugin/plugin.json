@@ -1,0 +1,4 @@
+{
+  "name": "test-designer",
+  "description": "Finds behavior that needs unit, integration, or end-to-end tests and writes tests for meaningful edge cases, to catch regressions the diff alone may miss."
+}

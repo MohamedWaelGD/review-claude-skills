@@ -1,0 +1,4 @@
+{
+  "name": "accessibility-reviewer",
+  "description": "Checks keyboard use, focus, semantics, screen reader behavior, and RTL/LTR UI to make UI reviews more reliable and inclusive."
+}

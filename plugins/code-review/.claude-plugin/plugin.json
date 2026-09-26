@@ -1,0 +1,7 @@
+{
+  "name": "code-review",
+  "description": "Full-stack code/PR review agent covering correctness, security, best practices, and performance.",
+  "author": {
+    "name": "Your Name"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "review-claude-skills",
+  "owner": {
+    "name": "Your Name"
+  },
+  "description": "Personal collection of Claude Code review agents and skills, shared across devices.",
+  "plugins": [
+    {
+      "name": "code-review",
+      "source": "./plugins/code-review",
+      "description": "Full-stack code/PR review agent covering correctness, security, best practices, and performance."
+    }
+  ]
+}
